@@ -21,7 +21,7 @@ A machine learning project to classify company descriptions into **11 industry c
     ```
 
 2.  **Run the Model**
-    Place your dataset (`training.xlsx`) in the root folder and run:
+    Place your dataset  in the root folder and run:
     ```bash
     python main.py
     ```
