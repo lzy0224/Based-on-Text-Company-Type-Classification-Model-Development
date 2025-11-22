@@ -27,9 +27,3 @@ A machine learning project to classify company descriptions into **11 industry c
     ```
     *This will train the model, generate evaluation plots, and save the best model as `.pkl`.*
 
-3.  **Inference**
-    ```python
-    import joblib
-    model = joblib.load('best_company_classifier_pipeline.pkl')
-    print(model.predict(["Company description text here..."]))
-    ```
